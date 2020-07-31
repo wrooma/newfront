@@ -1,0 +1,152 @@
+
+.header {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 25px 0 black;
+}
+.header * {
+  display: inline;
+}
+.header li {
+  margin: 30px;
+  font-size: 180%;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.logo {
+  height: 70px;
+  margin-left: 40px;
+}
+.authorization {
+  background-color: whitesmoke;
+  border-radius: 6%;
+  box-shadow: 10px 10px 85px #0e0e0e;
+  border-style: outset;
+  text-align: center;
+  height: 500px;
+  width: 400px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.email {
+  background-color: white;
+  margin-top: 80px; 
+  border-radius: 7px;
+  height: 35px;
+  width: 220px;
+  font-family: "Comic Sans MS";
+}
+.password {
+  background-color: white;
+  margin-top: 10px; 
+  border-radius: 7px;
+  height: 35px;
+  width: 220px;
+  font-family: "Comic Sans MS";
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  transform: translate(50%, -50%);
+  margin-left: 150px;
+  font-family: "Comic Sans MS";
+  text-align: center;
+  margin-top: 20px;
+}
+.LoginButton {
+  font-family: "Comic Sans MS";
+  margin-top: 15px;
+}
+.RegisterButton {
+  font-family: "Comic Sans MS";
+  margin-left: 13px;
+  margin-top: 15px;
+  font-size: 120%;
+}
+.news {
+  font-family: "Comic Sans MS";
+  margin-left: 10px;
+}
+.image {
+  border-radius: 1%;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  min-height: 900px;
+  background-image: url("https://lookw.ru/8/852/1476177050-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.something {
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  background-color: white;
+  top: 50%;
+  transform: translate(50%, -50%);
+  margin-left: 450px;
+  border-radius: 10 px;
+  border-radius: 15px;
+}
+.TableHead {
+  margin-right: 10px;
+}
+.plan {
+  min-width: 1500;
+  position: absolute;
+  top: 170px;
+  left: 300px;
+}
+.b {
+  font-size: 150%;
+  font-family: "Arial";
+  margin-left: 10px;
+
+}
+.AddPlan {
+  position: absolute;
+  top: 170px;
+  left: 1600px;
+  text-align: center;
+  padding: 15px 32px;
+  font-size: 130%;
+}
+.access {
+  font-size: 120%;
+}
+.name {
+  margin-top: 20px;
+  font-size: 120%;
+}
+.position {
+  font-size: 120%;
+}
+.head {
+  font-size: 120%;
+}
+.hr {
+  font-size: 120%;
+}
+.period {
+  font-size: 120%;
+}
+.DeletePlan {
+  position: absolute;
+  top: 260px;
+  left: 1600px;
+  text-align: center;
+  padding: 15px 38px;
+  font-size: 130%;
+}
